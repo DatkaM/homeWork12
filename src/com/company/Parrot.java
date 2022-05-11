@@ -3,7 +3,6 @@ package com.company;
 public class Parrot {
     private String name;
     private String color;
-    private String skill;
     private int age;
 
     public void setName(String name) {
@@ -23,13 +22,6 @@ public class Parrot {
         return color;
     }
 
-    public void setSkill(String skill) {
-        this.skill = skill;
-    }
-
-    public String getSkill() {
-        return skill;
-    }
 
     public void setAge(int age) {
         this.age = age;
@@ -37,6 +29,9 @@ public class Parrot {
 
     public int getAge() {
         return age;
+    }
+    public void getParrotSkill(){
+        System.out.println(getName()+" can repeats");
     }
 
 

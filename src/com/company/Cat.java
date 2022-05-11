@@ -4,7 +4,7 @@ public class Cat {
     private String name;
     private String color;
     private int age;
-    private String skill;
+
 
 
     public void setName(String name) {
@@ -30,11 +30,8 @@ public class Cat {
     public int getAge() {
         return age;
     }
-    public void setSkill(String skill){
-        this.skill=skill;
+    public void getSkillMethod(){
+        System.out.println(getName()+" can to run");
+    }
 
-    }
-    public String getSkill(){
-        return skill;
-    }
 }
